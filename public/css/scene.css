@@ -1,0 +1,63 @@
+/* Below rules define, the      */
+/* Default theme for all scenes */
+
+.scene {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+.scene button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+    border-radius: 4px;
+    padding: 0.6em 1em;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    transition: background-color 0.8s ease;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.scene button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.scene button:focus {
+    outline: none;
+    border-style: dashed;
+}
+
+.scene h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.scene .large-space-below {
+    margin-bottom: 3em;
+}
+.scene .medium-space-below {
+    margin-bottom: 1.5em;
+}
+
+.scene input[type=text], .scene input[type=password] {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    font-size: 1em;
+}
+
+.scene input[type=text]:focus, .scene input[type=password]:focus {
+    outline: none;
+}

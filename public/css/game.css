@@ -1,0 +1,29 @@
+
+#gameboard .cell {
+    width: 10vh;
+    height: 10vh;
+    font-size: 8vh;
+    text-align: center;
+}
+
+#gameboard_1, #gameboard_4, #gameboard_3, #gameboard_6 {
+    border-bottom: 5px solid white;
+}
+
+#gameboard_2 {
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+#gameboard_5 {
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+#gameboard_8 {
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+

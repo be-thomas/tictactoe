@@ -1,0 +1,21 @@
+@import "popup.css";
+@import "scene.css";
+@import "scene-home.css";
+@import "game.css";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Some common useful classes */
+.flex-col { display: flex; flex-direction: column; }
+.flex-row { display: flex; flex-direction: row; }
+.flex-center { align-items: center; }
+.flex-middle { justify-content: center }
+.full-height { height: 100%; }
+.full-width { width: 100%; }
+.space-between { justify-content: space-between; }
+.space-evenly { justify-content: space-evenly; }
+
+

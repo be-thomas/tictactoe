@@ -1,0 +1,18 @@
+{
+    "ssl_": {
+        "key_file_name": "misc/key.pem",
+        "cert_file_name": "misc/cert.pem"
+    },
+
+    "host": "localhost",
+    "port": 9001,
+
+    "mysql": {
+        "db_host": "localhost",
+        "db_port": 3306,
+        "db_name": "tictactoe",
+        "db_username": "tictactoe",
+        "db_password": "",
+        "db_connection_limit": 20
+    }
+}

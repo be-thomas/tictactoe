@@ -1,0 +1,67 @@
+#popup_container {
+    position: absolute; top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex; flex-direction: row;
+    justify-content: center; align-items: center;
+    display: none;
+}
+
+
+#popup {
+    background-color: white;
+    padding: 1.5em 2em;
+    border-radius: 8px;
+    box-shadow: 10px 50px 100px grey;
+    min-width: 100px;
+    max-width: 80vw;
+}
+
+#popup h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#popup button {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+
+    border-radius: 4px;
+    padding: 0.6em 1em;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    transition: background-color 0.8s ease;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#popup button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#popup button:focus {
+    outline: none;
+    border-style: dashed;
+}
+
+#popup .large-space-below {
+    margin-bottom: 3em;
+}
+
+#popup input[type=text], .scene input[type=password] {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    font-size: 1em;
+}
+
+#popup input[type=text]:focus, .scene input[type=password]:focus {
+    outline: none;
+}

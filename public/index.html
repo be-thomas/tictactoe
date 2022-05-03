@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- THIS IS MADE OF MULTIPLE SCENES, ONLY ONE SCENE IS
+            ACTIVE AT A GIVEN TIME, OTHERS ARE
+                HIDDEN (style="display:none;")
+    -->
+    <!-- Home Scene - This is like the start scene(the very first) -->
+    <div id="scene-home" class="scene">
+        <div class="flex-col full-height flex-center flex-middle">
+            <h1>Tic Tac Toe</h1>
+            <h2 class="large-space-below">Home</h2>
+            <button id="start_btn">Start</button>
+            <button id="players_btn">Players</button>
+            <button id="logout_btn">Logout</button>
+        </div>
+    </div>
+
+
+    <!-- Gameplay Scene - game can be played from here -->
+    <div id="scene-game" class="scene">
+        <div class="flex-col full-height">
+            <div><button id="back_btn" class="medium-space-below">Back</button></div>
+            <div class="flex-col flex-center flex-middle">
+                <h1>Tic Tac Toe</h1>
+                <h2 id="msg_view" style="text-decoration: underline;" class="large-space-below">Your Turn</h2>
+                <div id="gameboard">
+                    <div class="flex-row">
+                        <div class="cell" id="gameboard_1"></div>
+                        <div class="cell" id="gameboard_2"></div>
+                        <div class="cell" id="gameboard_3"></div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="cell" id="gameboard_4"></div>
+                        <div class="cell" id="gameboard_5"></div>
+                        <div class="cell" id="gameboard_6"></div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="cell" id="gameboard_7"></div>
+                        <div class="cell" id="gameboard_8"></div>
+                        <div class="cell" id="gameboard_9"></div>
+                    </div>
+                </div>
+                <h2 id="player_info" style="margin-top: 60px;" id="player_no">You are Player #1 (X)</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Login/Register Scene -->
+    <div id="scene-login-register" class="scene">
+        <div class="flex-col full-height flex-center flex-middle">
+            <h1>Tic Tac Toe</h1>
+            <h2 class="large-space-below">Login / Register</h2>
+            <button id="login_btn">Login</button>
+            <h2>-- OR --</h2>
+            <button id="register_btn">Register</button>
+        </div>
+    </div>
+
+
+    <!-- Login Scene  -->
+    <div id="scene-login" class="scene">
+        <div class="flex-col full-height flex-center flex-middle">
+            <h1>Tic Tac Toe</h1>
+            <h2 class="large-space-below">Login</h2>
+            <input id="username_txt" type="text" placeholder="Username">
+            <input id="password_txt" type="password" placeholder="Password">
+            <div class="flex-row full-width flex-center space-evenly" style="max-width: 400px">
+                <button id="back_btn">Back</button>
+                <button id="login_btn">Login</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Register Scene  -->
+    <div id="scene-register" class="scene">
+        <div class="flex-col full-height flex-center flex-middle">
+            <h1>Tic Tac Toe</h1>
+            <h2 class="large-space-below">Register</h2>
+            <input id="username_txt" type="text" placeholder="Username">
+            <input id="password_txt" type="password" placeholder="Password">
+            <div class="flex-row full-width flex-center space-evenly" style="max-width: 400px">
+                <button id="back_btn">Back</button>
+                <button id="register_btn">Register</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Players Scene  -->
+    <div id="scene-players" class="scene">
+    </div>
+
+
+    <!-- Player Scene  -->
+    <div id="scene-player" class="scene">
+        <div class="flex-col full-height">
+            <div><button id="back_btn" class="large-space-below">Back</button></div>
+        </div>
+    </div>
+
+
+    <!-- Create/Join Waiting Room Scene  -->
+    <div id="scene-create-join" class="scene">
+        <div class="flex-col full-height">
+            <div><button id="back_btn" class="large-space-below">Back</button></div>
+            <div class="flex-col flex-center flex-middle">
+                <h1>Tic Tac Toe</h1>
+                <h2 class="large-space-below">GameRoom</h2>
+                <button id="create_btn">Create<br><br>GameRoom</button>
+                <button id="join_btn">Join<br><br>GameRoom</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Create Waiting Room Scene -->
+    <div id="scene-create" class="scene">
+        <div class="flex-col full-height">
+            <div><button id="back_btn" class="large-space-below">Back</button></div>
+            <div class="flex-col flex-center flex-middle">
+                <h1>Tic Tac Toe</h1>
+                <h2 class="large-space-below">GameRoom created!</h2>
+                <h2 style="margin-bottom: 0;">GameRoom ID:</h2>
+                <div class="flex-row space-evenly large-space-below">
+                    <h2 style="margin-right: 20px;" id="gameroom_id_view">1223</h2>
+                    <button id="copy_btn">Copy</button>
+                </div>
+                <h2>Waiting for a Player to Join!</h2>
+                <div>Share the GameRoom ID with<br>
+                    your friends & ask them to join</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Join Waiting Room Scene -->
+    <div id="scene-join" class="scene">
+        <div class="flex-col full-height">
+            <div><button id="back_btn" class="large-space-below">Back</button></div>
+            <div class="flex-col flex-center flex-middle">
+                <h1>Tic Tac Toe</h1>
+                <h2 class="large-space-below">GameRoom Join</h2>
+                <h2>GameRoom ID:</h2>
+                <input type="text" id="gameroom_id_txt">
+                <div class="flex-row full-width flex-center space-evenly" style="max-width: 400px">
+                    <button id="paste_btn">Paste</button>
+                    <button id="join_btn">Join</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Verdict Scene -->
+    <div id="scene-verdict" class="scene">
+    </div>
+
+    <!-- Overlay Popup -->
+    <div id="popup_container">
+        <div id="popup">
+            This is a popup!
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/scene_manager.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/tictactoe.js"></script>
+    <!-- Initializations, before Defining Scenes -->
+    <script type="text/javascript">
+        const sm = new SceneManager();
+        const ticTacToe = new TicTacToe("http://localhost:9001/");
+        const ticTacToe_user = ticTacToe.User();
+    </script>
+    <!-- Define all scenes | START -->
+    <script type="text/javascript" src="js/scenes/home.js"></script>
+    <script type="text/javascript" src="js/scenes/login-register.js"></script>
+    <script type="text/javascript" src="js/scenes/login.js"></script>
+    <script type="text/javascript" src="js/scenes/register.js"></script>
+    <script type="text/javascript" src="js/scenes/create-join.js"></script>
+    <script type="text/javascript" src="js/scenes/create.js"></script>
+    <script type="text/javascript" src="js/scenes/join.js"></script>
+    <script type="text/javascript" src="js/scenes/game.js"></script>
+    <!-- Define all scenes | END -->
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
