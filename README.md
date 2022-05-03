@@ -12,7 +12,7 @@ Multiplayer Tic Tac Toe game
 ## How to play
 
 1) go the link : - https://tictactoe.codewithzeal.com
-<img alt="Step 1" src="public/step1.jpeg" height="100px" />
+<img alt="Step 1" src="public/step1.jpeg" height="300px" />
 2) register/login yourself
 ![Step 2](public/step2.jpeg)
 3) START => CREATE GAMEROOM (make note of gameroom ID)
