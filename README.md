@@ -4,10 +4,10 @@
 Multiplayer Tic Tac Toe game
 
 ## On Phone -
-![Tic Tac Toe on phone](public/ingame-phone.jpeg)
+<img alt="Tic Tac Toe on phone" src="public/ingame-phone.jpeg" height="400px" />
 
 ## On Desktop -
-![Tic Tac Toe on Desktop](public/ingame-desktop.jpg)
+<img alt="Tic Tac Toe on Desktop" src="public/ingame-desktop.jpg" height="400px" />
 
 ## How to play
 
