@@ -11,14 +11,16 @@ Multiplayer Tic Tac Toe game
 
 ## How to play
 
-1) go the link : - https://tictactoe.codewithzeal.com
+### 1) go the link : - https://tictactoe.codewithzeal.com
 <img alt="Step 1" src="public/step1.jpeg" height="400px" />
-2) register/login yourself
+### 2) register/login yourself
 <img alt="Step 2" src="public/step2.jpeg" height="400px" />
-3) START => CREATE GAMEROOM (make note of gameroom ID)
-<img alt="Step 3 Part 1" src="public/step3_1.jpeg" height="400px" />
-<img alt="Step 3 Part 2" src="public/step3_2.jpeg" />
-<img alt="Step 3 Part 3" src="public/step3_3.jpeg" />
+### 3) START => CREATE GAMEROOM (make note of gameroom ID)
+<div style="display: flex">
+  <img alt="Step 3 Part 1" src="public/step3_1.jpeg" height="400px" />
+  <img alt="Step 3 Part 2" src="public/step3_2.jpeg" />
+  <img alt="Step 3 Part 3" src="public/step3_3.jpeg" />
+</div>
 4) register/login from another device with a different username
 ![Step 4](public/step4.jpeg)
 5) START => JOIN GAMEROOM (put the gameroom ID from step 3)
