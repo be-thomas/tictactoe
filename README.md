@@ -1,6 +1,6 @@
 # tictactoe
 
-## Try it here: https://tictactoe.codewithzeal.com
+## Try it here: http://tictactoe.be-thomas.com
 Multiplayer Tic Tac Toe game
 
 ## On Phone -
@@ -11,7 +11,7 @@ Multiplayer Tic Tac Toe game
 
 ## How to play
 
-### 1) go the link : - https://tictactoe.codewithzeal.com
+### 1) go the link : - http://tictactoe.be-thomas.com
 <img alt="Step 1" src="public/step1.jpeg" height="400px" />
 
 ### 2) register/login yourself
